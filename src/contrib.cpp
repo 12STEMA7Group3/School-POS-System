@@ -22,7 +22,7 @@ void MenuItem::increaseQty(uint8_t amount) {
 }
 
 void MenuItem::decreaseQty(uint8_t amount) {
-    throw logic_error("unimplemented");
+    throw logic_error("unimplemented");    
 }
 
 void MenuItem::resetQty() noexcept { throw logic_error("unimplemented"); }
